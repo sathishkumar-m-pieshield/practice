@@ -1,0 +1,11 @@
+name: Practice day 1
+
+on: workflow_run
+
+jobs:
+  mybuild:
+    runs-on: ubuntu-latest
+    steps:
+      -name: show the triggers
+      run: echo "hello world"
+    
