@@ -1,6 +1,6 @@
 name: Practice day 1
 
-on: workflow_run
+on: workflow_dispatch
 
 jobs:
   mybuild:
