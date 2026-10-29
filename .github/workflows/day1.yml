@@ -1,12 +1,10 @@
 name: Practice day 1
 
-on: 
-  workflow_dispatch:
+on: [workflow_dispatch]
 
 jobs:
   mybuild:
     runs-on: ubuntu-latest
     steps:
-      -name: show the triggers
+      - name: show the triggers
         run: echo "hello world"
-    
